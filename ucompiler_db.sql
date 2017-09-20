@@ -1,8 +1,8 @@
 use ucompiler;
 
 /*INICIO TABLAS MAESTRAS*/
-drop table if exists `algoritm_templates`;
-create table algoritm_templates
+drop table if exists `algorithm_templates`;
+create table algorithm_templates
 (
 	id bigint(20) unsigned not null primary key comment 'Id autogenerado' auto_increment,
     complete_name  nvarchar(20) not null comment 'Nombre de la plantilla',
