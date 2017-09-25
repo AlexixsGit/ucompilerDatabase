@@ -331,7 +331,7 @@ CREATE TABLE `users` (
   CONSTRAINT `FK_aux_data_users_is_superadmin` FOREIGN KEY (`is_superadmin`) REFERENCES `aux_data` (`id`),
   CONSTRAINT `FK_aux_data_users_sex` FOREIGN KEY (`sex`) REFERENCES `aux_data` (`id`),
   CONSTRAINT `FK_aux_data_users_user_status` FOREIGN KEY (`user_status`) REFERENCES `aux_data` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -340,6 +340,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (8,'Alexixs','Alexis Ortiz','ee.du@hotmail.com','202cb962ac59075b964b07152d234b70','2017-09-22 19:00:00',5,3,'Colombia','ITM','123','',2,2,2,2,'2017-09-24 13:15:38','2017-09-24 13:15:38'),(9,'Alexixs Ortiz','Alexis Ortiz','eee.du@hotmail.com','250cf8b51c773f3f8dc8b4be867a9a02','2017-09-22 19:00:00',5,3,'Colombia','ITM','123','',2,2,2,2,'2017-09-24 13:18:09','2017-09-24 13:18:09');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -415,4 +416,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-09-22 22:03:07
+-- Dump completed on 2017-09-24 20:13:52
