@@ -6,9 +6,11 @@ Lo primero que se debe hacer para crear la base de datos es instalar mysql versi
 de datos o el backup que se encuentre en su momento para ver la estructura y la informacion que contiene
 
 # Build and Test
-Para probar que la base de datos esta funcionando, se debe realizar la conexion a la base de datos.
+Para probar que la base de datos esta funcionando, se debe realizar la conexion a la base de datos y ejecutar consultas a las tablas,
+esta base de datos tiene su parte de back hecha en java que tambien se encuentra en este repositorio con nombre ucompilerBackend y su parte front hecha con angular 4 que tambien se encuentra en este repositorio con nombre ucompilerFront
 
 # Contribute
+Jorge Suaza
 Edward Alexis Ortiz
 Jorge Andres Maturana
 Yuly Tatiana Murillo
